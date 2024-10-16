@@ -1,0 +1,167 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+background: beige;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    padding: 0rem;
+    list-style: none;
+}
+nav a{
+    color: #734c76;
+    text-decoration: none;
+    
+    
+}
+.hero{
+    min-height: 90vh;
+    background-image: url("./backkk.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 2rem;
+    align-items: flex-start;
+    font-family: "Pacifico", cursive;
+    color: midnightblue;
+}
+li{
+    text-decoration: none;
+}
+.affordable{
+color: red;
+}
+.intro-image{
+flex: 1 1 10rem;
+background: bisque;
+}
+.intro{
+display: flex;
+flex-wrap: wrap;
+}
+.hero h2{
+
+margin: 2rem;
+}
+.hero button{
+background-color: orange;
+border: none;
+padding: 1rem 2rem;
+font-family: "Teko", sans-serif;
+font-size: 1.3rem;
+color: black;
+border-radius: 0.35rem;
+}
+.updock-regular {
+font-family: "Updock", cursive;
+font-weight: 400;
+font-style: normal;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.teko-<uniquifier> {
+font-family: "Teko", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+.pacifico-regular {
+font-family: "Pacifico", cursive;
+font-weight: 400;
+font-style: normal;
+}
+.intro img{
+height: 30rem;
+width: 100%;
+}
+.intro-text{
+flex: 1 1 10rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.intro-text h2{
+padding: 2rem;
+}
+.intro-text p{
+padding: 1rem;
+}
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    background: beige;
+  }
+  .pricing-plan{
+    flex: 1;
+    max-width: 20rem;
+    padding: 1.25rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    background: bisque;
+    
+    
+  }
+  .plan-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.67rem;
+  }
+  .plan-price{
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-bottom: 0.67rem;
+  }
+  .plan-features{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+  }
+  .plan-features li{
+    padding: 1rem;
+    
+  }
+  .plan-button{
+    background: orange;
+    border-radius: 0.35rem;
+    border: none;
+    padding: 0.6rem;
+    color: white;
+    width: 100%;
+  }
+
+  /* Hint: What can you do with a media query and flexbox? */
+  @media (max-width: 1250px) {
+    .pricing-container{
+      height: 100%;
+      flex-direction: column;
+      
+    }
+  }
+  footer{
+background:beige;
+padding: 5rem;
+
+}
+footer p{
+color: #734c76;
+text-align: center;
+}
